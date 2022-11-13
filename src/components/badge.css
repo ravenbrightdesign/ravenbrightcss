@@ -1,0 +1,25 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+.badge {
+  display: flex;
+  border-radius: var(--rbrh-radius-md);
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: var(--rbrh-font-weight-default);
+  flex-shrink: 0;
+}
+.badge svg,
+.badge-icon svg {
+  display: inline;
+  flex-shrink: 0;
+}
+.badge-icon {
+  border-radius: var(--rbrh-radius-circle);
+  line-height: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

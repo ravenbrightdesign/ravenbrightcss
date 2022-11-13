@@ -1,0 +1,30 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base input
+   ============================================= */
+[type="text"],
+[type="email"],
+[type="password"],
+[type="date"],
+[type="time"],
+textarea {
+  padding: var(--rbrh-spacing-4);
+  min-width: 12rem;
+  width: 100%;
+  color: var(--rbrh-text-600);
+  box-shadow: var(--rbrh-shadow-inset-sm);
+  border: 1px solid var(--rbrh-border-300);
+  background-color: var(--rbrh-background);
+  border-radius: var(--rbrh-radius-sm);
+}
+
+/* States
+   ============================================= */
+[type="text"]:focus,
+[type="password"]:focus,
+[type="text"]:active,
+[type="password"]:active {
+  box-shadow: var(--rbrh-shadow-focus);
+  outline: 0;
+}

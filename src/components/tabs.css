@@ -1,0 +1,27 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base tab link
+   ============================================= */
+.tab-link {
+  padding: var(--rbrh-spacing-2) var(--rbrh-spacing-5);
+  height: 100%;
+  display: inline-block;
+  font-size: var(--rbrh-font-size-xs);
+  color: var(--rbrh-text-800);
+}
+/* Hover states
+   ============================================= */
+.tab-link:hover {
+  text-decoration: none;
+  color: var(--rbrh-text);
+  font-weight: var(--rbrh-font-weight-semibold);
+  cursor: pointer;
+}
+/* Checked states
+   ============================================= */
+.tab-link.active {
+  border-left: none;
+  border-bottom: 4px solid var(--rbrh-teal-600);
+  font-weight: var(--rbrh-font-weight-bold);
+}

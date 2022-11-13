@@ -1,0 +1,24 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base checkbox
+   ============================================= */
+[type="checkbox"] ~ label {
+  font-weight: var(--rbrh-font-weight-default);
+  cursor: pointer;
+}
+/* States
+   ============================================= */
+[type="checkbox"]:active {
+  transform: translateY(4px);
+  transition: transform 0.2s ease;
+}
+[type="checkbox"]:focus {
+  box-shadow: var(--rbrh-shadow-focus);
+}
+[type="checkbox"]:hover ~ label {
+  font-weight: var(--rbrh-font-weight-semibold);
+}
+[type="checkbox"]:checked ~ label {
+  font-weight: var(--rbrh-font-weight-bold);
+}

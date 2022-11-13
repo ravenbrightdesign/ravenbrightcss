@@ -1,0 +1,58 @@
+{
+  "name": "ravenbrightcss",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravenbrightdesign/ravenbrightcss.git"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://ravenbrightcss.com",
+  "docs": "https://ravenbrightcss.com/docs",
+  "author": "Ariq N",
+  "description": "Modern, zero-config & style agnostic CSS library with utility classes, reusable design tokens, minimal components & built-in dark mode to help you build static sites faster without hassle.",
+  "main": "index.html",
+  "style": "dist/ravenbright.min.css",
+  "unpkg": "dist/ravenbright.min.css",
+  "scripts": {
+    "css-light": "postcss main.css --output dist/ravenbright.min.css",
+    "css-light-watch": "postcss main.css --output dist/ravenbright.min.css --watch",
+    "css-dark": "postcss main-dark.css --output dist/ravenbright-dark.min.css",
+    "css-dark-watch": "postcss main-dark.css --output dist/ravenbright-dark.min.css --watch",
+    "buildcss": "concurrently 'npm:css-light' 'npm:css-dark'",
+    "vite": "vite",
+    "build-vite": "vite build",
+    "preview-vite": "vite preview",
+    "dev": "concurrently 'npm:css-light-watch' 'npm:css-dark-watch' 'npm:vite'"
+  },
+  "bugs": {
+    "url": "https://github.com/ravenbrightdesign/ravenbrightcss/issues"
+  },
+  "keywords": [
+    "CSS",
+    "atomic CSS",
+    "CSS custom properties",
+    "CSS utility classes",
+    "CSS components",
+    "CSS variables",
+    "CSS library",
+    "design tokens",
+    "design system",
+    "Figma tokens",
+    "front-end",
+    "functional CSS",
+    "UI components"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.0",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13"
+  }
+}

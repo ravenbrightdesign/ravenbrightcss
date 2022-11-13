@@ -1,0 +1,28 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/*! purgecss start ignore */
+.accordion {
+  background-color: var(--rbrh-background-200);
+  cursor: pointer;
+  font-weight: var(--rbrh-font-weight-medium);
+  &:hover,
+  &:active {
+    box-shadow: none;
+    transform: none;
+  }
+  &:focus {
+    box-shadow: var(--rbrh-shadow-focus);
+    z-index: 1000;
+  }
+}
+summary:focus {
+  background: var(--rbrh-background-200);
+  box-shadow: var(--rbrh-shadow-focus);
+}
+details[open] {
+  p {
+    margin-top: var(--rbrh-spacing-6);
+  }
+}
+/*! purgecss end ignore */

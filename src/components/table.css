@@ -1,0 +1,53 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base Table
+   ============================================= */
+table {
+  border: 1px solid var(--rbrh-border-300);
+  border-radius: var(--rbrh-radius-md);
+}
+table td,
+table th {
+  @mixin screen-xs-up {
+    padding: var(--rbrh-spacing-5);
+  }
+  @mixin screen-lg-up {
+    padding: var(--rbrh-spacing-6) var(--rbrh-spacing-8);
+  }
+}
+/* Table head
+   ============================================= */
+thead tr {
+  background-color: var(--rbrh-background-200);
+}
+thead th {
+  font-size: clamp(
+    var(--rbrh-font-size-xxs),
+    -4vw + 6rem,
+    var(--rbrh-font-size-xs)
+  );
+  color: var(--rbrh-text-700);
+}
+/* Table body
+   ============================================= */
+tbody tr {
+  background-color: var(--rbrh-background-50);
+  border: 1px solid var(--rbrh-gray-200);
+}
+tbody tr:nth-child(2n) {
+  background-color: var(--rbrh-background-100);
+}
+tbody td:first-child {
+  font-weight: var(--rbrh-font-weight-medium);
+  color: var(--rbrh-text-900);
+}
+tbody td {
+  font-size: clamp(
+    var(--rbrh-font-size-sm),
+    -12vw + 1rem,
+    var(--rbrh-font-size-md)
+  );
+  overflow: hidden;
+  color: var(--rbrh-text-800);
+}

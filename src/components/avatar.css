@@ -1,0 +1,58 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base Avatar
+   ============================================= */
+.avatar {
+  border-radius: var(--rbrh-radius-circle);
+  line-height: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+/* Avatar variants
+   ============================================= */
+.avatar-icon {
+  background-color: var(--rbrh-background-200);
+}
+.avatar-32 {
+  width: var(--rbrh-spacing-9);
+  height: var(--rbrh-spacing-9);
+  @mixin font-size-sm;
+}
+.avatar-40 {
+  width: var(--rbrh-spacing-10);
+  height: var(--rbrh-spacing-10);
+  @mixin font-size-xs;
+}
+.avatar-48 {
+  width: var(--rbrh-spacing-12);
+  height: var(--rbrh-spacing-12);
+  @mixin font-size-sm;
+}
+.avatar-56 {
+  width: var(--rbrh-spacing-14);
+  height: var(--rbrh-spacing-14);
+  @mixin font-size-md;
+}
+.avatar-64 {
+  width: var(--rbrh-spacing-16);
+  height: var(--rbrh-spacing-16);
+  @mixin font-size-md;
+}
+.avatar-72 {
+  width: var(--rbrh-spacing-18);
+  height: var(--rbrh-spacing-18);
+  @mixin font-size-lg;
+}
+.avatar-80 {
+  width: var(--rbrh-spacing-20);
+  height: var(--rbrh-spacing-20);
+  @mixin font-size-lg;
+}
+.avatar-88 {
+  width: var(--rbrh-spacing-22);
+  height: var(--rbrh-spacing-22);
+  @mixin font-size-2xl;
+}

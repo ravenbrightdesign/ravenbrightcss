@@ -1,0 +1,14 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+blockquote {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--rbrh-spacing-4);
+  padding: var(--rbrh-spacing-5);
+  border-radius: var(--rbrh-radius-md);
+}
+figure,
+figcaption {
+  width: fit-content;
+}

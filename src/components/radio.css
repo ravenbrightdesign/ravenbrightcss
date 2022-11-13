@@ -1,0 +1,25 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base radio
+   ============================================= */
+[type="radio"] ~ label {
+  font-weight: var(--rbrh-font-weight-default);
+  cursor: pointer;
+}
+
+/* States
+   ============================================= */
+[type="radio"]:active {
+  transform: translateY(4px);
+  transition: transform 0.2s ease;
+}
+[type="radio"]:focus {
+  box-shadow: var(--rbrh-shadow-focus);
+}
+[type="radio"]:hover ~ label {
+  font-weight: var(--rbrh-font-weight-semibold);
+}
+[type="radio"]:checked ~ label {
+  font-weight: var(--rbrh-font-weight-bold);
+}

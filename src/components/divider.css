@@ -1,0 +1,28 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+hr {
+  overflow: visible;
+  height: 0;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+.divider {
+  border: 1px solid var(--rbrh-border-200);
+  margin: 0;
+  padding: 0;
+}
+.divider-horizontal {
+  width: 100%;
+}
+.divider-vertical {
+  height: 100%;
+  /*Responsive settings*/
+  @mixin screen-xs-up {
+    transform: rotate(0);
+  }
+  @mixin screen-md-up {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,29 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base button
+   ============================================= */
+button,
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--rbrh-font-weight-semibold);
+  background-color: var(--rbrh-green-600);
+  border-radius: var(--rbrh-radius-sm);
+  color: var(--rbrh-white);
+  padding: var(--rbrh-spacing-4) var(--rbrh-spacing-6);
+  &:hover {
+    transform: translateY(-3px);
+    transition: transform 0.2s ease;
+  }
+  &:target,
+  &:focus {
+    box-shadow: var(--rbrh-shadow-focus);
+    outline: 0;
+  }
+  &:active {
+    transform: translate(var(--rbrh-spacing-1), var(--rbrh-spacing-1));
+    box-shadow: 0 1px 2px var(--rbrh-gray-100) inset;
+  }
+}

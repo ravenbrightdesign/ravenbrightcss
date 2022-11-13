@@ -1,0 +1,15 @@
+/* To debug & customize this component,
+	 check 👉 src/css-variable.css
+   ============================================= */
+/* Base card
+   ============================================= */
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  background-color: var(--rbrh-background-50);
+  border-radius: var(--rbrh-radius-lg);
+  padding: var(--rbrh-spacing-5) var(--rbrh-spacing-7);
+  height: min-content;
+}
