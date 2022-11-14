@@ -57,13 +57,13 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 
 <div align="center">
 
-<a href="https://codepen.io/ravenbrightdesign">
+<a href="https://figma.com/@ravenbright">
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Tokens">
 </a>
-<a href="https://figma.com/@ravenbright">
+<a href="https://github.com">
 <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="JSON tokens">
 </a>
-<a href="https://reddit.com/r/ravenbrightcss">
+<a href="https://github.com">
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS config">
 </a>
 
@@ -106,18 +106,31 @@ Ravenbright CSS might be for you.
 
 # How to get started?
 
-- Download the source code from [GitHub Releases](https://github.com), install via npm, or copy & paste the CDN link
+## Manual download
+- Download the source code from [GitHub Releases](https://github.com)
 
-- Put the CSS link into HTML
-- Run these commands below & it's done 🎉
-
+## Install via CDN
 ```bash
-npm install
-
-npm run dev
+<link rel="stylesheet" href="https://unpkg.com/ravenbrightcss/dist/ravenbright.min.css">
 ```
 
-You can also copy & paste the components from [Ravenbright CSS website](https://ravenbrightcss.com/components).
+## Install via npm
+```bash
+# initialize project
+npm init
+
+# Download & install Ravenbright CSS locally
+npm install ravenbrightcss
+
+# change directory
+cd node_modules/ravenbrightcss
+
+# install dependencies
+npm install
+
+# build the css & start the local dev server
+npm run dev
+```
 
 ---
 
@@ -129,6 +142,9 @@ Still have doubt? Don't be, explore & play around with Ravenbright CSS live demo
 
 <a href="https://codepen.io/ravenbrightdesign">
 <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="View demo on Codepen">
+</a>
+<a href="https://codepen.io/ravenbrightdesign">
+<img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Explore UI collections">
 </a>
 
 </div>

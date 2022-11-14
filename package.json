@@ -10,7 +10,6 @@
   "docs": "https://ravenbrightcss.com/docs",
   "author": "Ariq N",
   "description": "Modern, zero-config & style agnostic CSS library with utility classes, reusable design tokens, minimal components & built-in dark mode to help you build static sites faster without hassle.",
-  "main": "index.html",
   "style": "dist/ravenbright.min.css",
   "unpkg": "dist/ravenbright.min.css",
   "scripts": {
@@ -54,5 +53,15 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.13"
-  }
+  },
+  "files": [
+    "src/**/*.css",
+    "dist*/*.css",
+    "LICENSE.md",
+    "main.css",
+    "main-dark.css",
+    "package.json",
+    "postcss.config.js",
+    "README.md"
+  ]
 }
