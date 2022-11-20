@@ -23,10 +23,10 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 
 <div align="center">
 
-<a href="https://codepen.io/ravenbrightdesign">
+<a href="https://codepen.io/ariqnarasaputra">
 <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="View demo on Codepen">
 </a>
-<a href="https://figma.com/@ravenbright">
+<a href="https://www.figma.com/@ariqnarasaputra">
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma profile">
 </a>
 <a href="https://reddit.com/r/ravenbrightcss">
@@ -38,7 +38,7 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 ---
 
 <p align="center">
-<img  src="https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/public/ravenbrightcss-banner.jpg" alt="Ravenbright CSS Banner">
+<img width="320" src="https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/public/ravenbrightcss-banner.jpg?raw=true" alt="Ravenbright CSS Banner">
 </p>
 
 # How Ravenbright CSS differs from others?
@@ -57,13 +57,13 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 
 <div align="center">
 
-<a href="https://figma.com/@ravenbright">
+<a href="https://github.com/ravenbrightdesign/ravenbrighttokens">
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Tokens">
 </a>
-<a href="https://github.com">
-<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="JSON tokens">
+<a href="https://github.com/ravenbrightdesign/ravenbrighttokens">
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white" alt="JSON tokens">
 </a>
-<a href="https://github.com">
+<a href="https://ravenbrightcss.com/docs/integrations/tailwindcss">
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS config">
 </a>
 
@@ -86,40 +86,30 @@ Ravenbright CSS might be for you.
 - 🆓 Free even for commercial usage - Ravenbright CSS codes are free to use & released under Apache license 2.0.
 - ⚡ Free pre-built lightning fast & beautifully-designed Next.js 13, Astro 1.6 & Gatsby modern agency portfolio templates
 
-<div align="center">
-
-<a href="https://zauberhaft.ravenbright.design/astro"> <img src="https://img.shields.io/badge/Astro-FF5D01.svg?style=for-the-badge&logo=Astro&logoColor=white" alt="Astro">
-</a>
-<a href="https://zauberhaft.ravenbright.design/nextjs"><img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS">
-</a>
-<a href="https://zauberhaft.ravenbright.design/gatsby"><img src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white" alt="Gatsby JS">
-</a>
-<a href="https://zauberhaft.ravenbright.design/html"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-</a>
-
-</div>
-
 - 🌙 Built in dark mode - Ravenbright CSS provide wide range of colors for the dark mode
 - ♿ Built with accessibility in mind - Ravenbright CSS components & design tokens follow WCAG 2.1
 - 🌐 Rapidly integrate Ravenbright CSS with your favorite stacks - Ravenbright CSS currently can be integrated with 5 platforms (NextJS, Gatsby, Figma, Tailwind & Astro) to help you start quickly when building sites
-- 📗 In-depth documentation - Learn utility classes, design tokens, & CSS components with the growing documentation .
+- 📗 In-depth documentation - Learn utility classes, design tokens, & CSS components with the growing documentation
 
 # How to get started?
 
 ## Manual download
-- Download the source code from [GitHub Releases](https://github.com)
+
+- Download the source code from [GitHub Releases](https://github.com/ravenbrightdesign/ravenbrightcss)
 
 ## Install via CDN
+
 ```bash
 <link rel="stylesheet" href="https://unpkg.com/ravenbrightcss/dist/ravenbright.min.css">
 ```
 
 ## Install via npm
+
 ```bash
 # initialize project
 npm init
 
-# Download & install Ravenbright CSS locally
+# download & install Ravenbright CSS locally
 npm install ravenbrightcss
 
 # change directory
@@ -140,10 +130,10 @@ Still have doubt? Don't be, explore & play around with Ravenbright CSS live demo
 
 ## View demo on Codepen 👇
 
-<a href="https://codepen.io/ravenbrightdesign">
+<a href="https://codepen.io/ariqnarasaputra">
 <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="View demo on Codepen">
 </a>
-<a href="https://codepen.io/ravenbrightdesign">
+<a href="https://ravenbrightcss.com/uicollections">
 <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Explore UI collections">
 </a>
 
