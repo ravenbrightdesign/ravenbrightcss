@@ -38,6 +38,7 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 
 <p align="center">
 <img src="https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/public/ravenbrightcss-banner.jpg?raw=true" alt="Ravenbright CSS Banner">
+<img src="https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/public/ravenbrightcss-stats.jpg?raw=true" alt="Ravenbright CSS Stats">
 </p>
 
 # How Ravenbright CSS differs from others?
