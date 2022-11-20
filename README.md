@@ -38,7 +38,7 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 ---
 
 <p align="center">
-<img width="320" src="https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/public/ravenbrightcss-banner.jpg?raw=true" alt="Ravenbright CSS Banner">
+<img src="https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/public/ravenbrightcss-banner.jpg?raw=true" alt="Ravenbright CSS Banner">
 </p>
 
 # How Ravenbright CSS differs from others?
@@ -133,8 +133,7 @@ Still have doubt? Don't be, explore & play around with Ravenbright CSS live demo
 <a href="https://codepen.io/ariqnarasaputra">
 <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="View demo on Codepen">
 </a>
-<a href="https://ravenbrightcss.com/uicollections">
-<img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Explore UI collections">
+<a href="https://ravenbrightcss.com/uicollections"> Ravenbright UI collections
 </a>
 
 </div>
@@ -145,7 +144,7 @@ Still have doubt? Don't be, explore & play around with Ravenbright CSS live demo
 
 Ravenbright CSS is built from several CSS files with the help of PostCSS. By using PostCSS, you can remove the unused CSS, cherry-pick the CSS files and use SASS-like features in CSS (Nesting & mixins).
 
-Check out [Ravenbright CSS tutorials](https://ravenbrightcss.com/docs/usage/postcss) to help you understand more about this.
+Check out [Ravenbright CSS tutorial](https://ravenbrightcss.com/docs/usage/postcss) to help you understand more about this.
 
 # Credits & attributions
 
