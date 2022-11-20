@@ -9,7 +9,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/ravenbrightdesign/ravenbrightcss/badge.svg)](https://snyk.io/test/github/ravenbrightdesign/ravenbrightcss)
 [![Build CI](https://github.com/ravenbrightdesign/ravenbrightcss/actions/workflows/buildcss.yml/badge.svg)](https://github.com/ravenbrightdesign/ravenbrightcss/actions/workflows/buildcss.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ravenbrightdesign/ravenbrightcss)
-[![GitHub license](https://badgen.net/github/license/ravenbrightdesign/ravenbrightcss)](https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/LICENSE.md)
+[![GitHub license](https://img.shields.io/github/license/ravenbrightdesign/ravenbrightcss)](https://github.com/ravenbrightdesign/ravenbrightcss/blob/main/LICENSE.md)
 [![Ravenbrightcss.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://ravenbrightcss.com)
 
 </div>
