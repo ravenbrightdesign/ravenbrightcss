@@ -28,8 +28,8 @@ Ravenbright CSS is a modern, style & platform agnostic CSS library to build intu
 <a href="https://www.figma.com/@ariqnarasaputra">
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma profile">
 </a>
-<a href="https://reddit.com/r/ravenbrightcss">
-<img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white" alt="Subreddit">
+<a href="https://gitter.im/ravenbrightcss/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link">
+<img src="https://img.shields.io/badge/Gitter-ED1965.svg?style=for-the-badge&logo=Gitter&logoColor=white" alt="Gitter">
 </a>
 
 </div>
