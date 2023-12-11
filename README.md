@@ -1,4 +1,18 @@
 <div align="center">
+  
+# **IMPORTANT NOTICE: This project is no longer being maintained.**
+
+Thank you for your interest in this project. 
+
+As of December 11th, 2023, this project is no longer being maintained or updated. The repository will still be available and can be forked, but no further updates or issue responses will be made.
+
+This project is licensed under the terms of the Apache License 2.0. You are free to fork and use this project according to the terms of that license.
+
+Thank you for your understanding and support!
+
+---
+
+<div align="center">
 
 # What is 🐦Ravenbright CSS?
 
